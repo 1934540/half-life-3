@@ -8,6 +8,7 @@ public class Main {
         Player player = new Player(new Weapon[]{new PistolGun(), new MachineGun(), new RPG(), new WaterGun(), new SlingshotGun()});
         System.out.format("У игрока %d слотов с оружием, введите номер, что бы выстрелить, чтобы выйти -1 %n", player.getSlotsCount());
         int slot;
+        //ya Kirill
         while (true) {
             slot = scanner.nextInt();
             if(slot==-1){
